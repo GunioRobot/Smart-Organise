@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf250
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww9600\viewh13200\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf0 PROJECT
+\b0 	Smart-Organise Folders\
+
+\b AUTHOR
+\b0 		Emmanuel Tagarira\
+
+\b VERSION
+\b0 		0.0.2\
+
+\b CONTACT
+\b0 	{\field{\*\fldinst{HYPERLINK "mailto:mannie@etagarira.com"}}{\fldrslt mannie@dimensionsunmarked.com}}\
+
+\b URL
+\b0 			{\field{\*\fldinst{HYPERLINK "http://www.dimensionsunmarked.com"}}{\fldrslt www.dimensionsunmarked.com}}\
+
+\b LICENCE
+\b0 		LGPL 3  (See LICENCE-LGPL.txt or {\field{\*\fldinst{HYPERLINK "http://www.gnu.org/licenses/lgpl.html"}}{\fldrslt www.gnu.org/licenses/lgpl.html}})\
+
+\b COPYRIGHT
+\b0 	\'a9 2009 Emmanuel Tagarira\
+\
+
+\b SYNOPSIS
+\b0 \
+	This is a collection of Automator Services (Finder Plug-ins) and Folder Actions to help clean up cluttered, untidy folders.  Basically, these services help keep you organised, the basic concept being that files should stay organised by their extension in the top level of the selected directories.\
+\
+
+\b IMPORTANT\
+	
+\b0 Please ensure you have a working installation of Growl on your machine as this is required by the Services; notifications however, 
+\b do not 
+\b0 need to be enabled.\
+\
+
+\b HOW TO INSTALL\
+	
+\b0 If you are running Mac OS X 10.6 (or above), you have the option of installing via the provided installer.  By default, the installer installs all 3 Services and the "Smart-Organise Folders \'95 Extension" folder actions (which automatically attaches itself to your "Downloads" folder, which you can change by configuring your folder actions).  Should you decide to install more than one folder action, please ensure that you configure you folder actions.  Please 
+\b do not 
+\b0 use any combination of the provided folder actions together on the same folder simultaneously, as there are no priority resolution mechanisms in place for such a configuration; the resulting behaviour is indeterminate.\
+\
+
+\b MANUALLY INSTALLING SERVICES
+\b0 \
+	Navigate to the "Services" folder and double click to open the .workflow file you wish to install.  Click on the "File" menu, and select "Save As Plug-In...".  Type the name you wish to save the contextual menu item as (preferably the name of the Service) into the "Save Plug-In As:" field.  Select "Finder" from the drop-down menu for "Plug-In For".  Click save.  The service is now ready for use.\
+\
+
+\b MANUALLY INSTALLING FOLDER ACTIONS
+\b0 \
+	Navigate to the "Folder Actions" folder and double click to open the .workflow file you wish to install.  Click on the "File" menu, and select "Save As Plug-In...".  Type the name you wish to save the folder action as into the "Save Plug-In As:" field.  Select "Folder Action" from the drop-down menu for "Plug-In For"; then select the folder you would like to attach the action to using the new drop-down menu that appears (i.e. "Attached To Folder").  Click save.\
+\
+
+\b HOW TO UNINSTALL
+\b0 \
+For 
+\b pre Mac OS X 10.6
+\b0  systems, simply delete the Smart-Organise Folders related files which can be found within the following directories:\
+	
+\b ~/Library/Workflows/Applications/Finder
+\b0 \
+	
+\b ~/Library/Workflows/Applications/Folders
+\b0 \
+Please note that you will need to delete the files with the names you assigned during the manual installation.\
+\
+For systems running 
+\b Snow Leopard
+\b0 :\
+	If you chose to install the tools 
+\b for everyone that uses your machine
+\b0 , delete the Smart-Organise Folders related files from the following directories:\
+		
+\b /Library/Services
+\b0 \
+		
+\b /Library/Workflows/Applications/Folder Actions
+\b0 \
+\
+	If you chose to install the tools 
+\b for your user account only
+\b0 , delete the Smart-Organise Folders related files from the following directories:\
+		
+\b ~/Library/Services
+\b0 \
+		
+\b ~/Library/Workflows/Applications/Folder Actions
+\b0 \
+\
+There should be one file for each Service or Folder Action regardless the operating system on which it was installed.\
+}
