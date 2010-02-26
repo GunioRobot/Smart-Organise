@@ -7,33 +7,35 @@ LICENCE::	LGPL 3  (See LICENCE or www.gnu.org/licenses/lgpl.html)
 COPYRIGHT::	© 2009 Emmanuel Tagarira
 
 == SYNOPSIS
-	This is a collection of Automator Services (Finder Plug-ins) and Folder Actions to help clean up cluttered, untidy folders.  Basically, these services help keep you organised, the basic concept being that files should stay organised by their extension in the top level of the selected directories.
+This is a collection of Automator Services (Finder Plug-ins) and Folder Actions to help clean up cluttered, untidy folders.  Basically, these services help keep you organised, the basic concept being that files should stay organised by their extension in the top level of the selected directories.
 
 == IMPORTANT
-	Please ensure you have a working installation of Growl on your machine as this is required by the Services; notifications however, do not need to be enabled.
+Please ensure you have a working installation of Growl on your machine as this is required by the Services; notifications however, do not need to be enabled.
 
 == HOW TO INSTALL
-	If you are running Mac OS X 10.6 (or above), you have the option of installing via the provided installer.  By default, the installer installs all 3 Services and the "Smart-Organise Folders • Extension" folder actions (which automatically attaches itself to your "Downloads" folder, which you can change by configuring your folder actions).  Should you decide to install more than one folder action, please ensure that you configure you folder actions.  Please do not use any combination of the provided folder actions together on the same folder simultaneously, as there are no priority resolution mechanisms in place for such a configuration; the resulting behaviour is indeterminate.
+If you are running Mac OS X 10.6 (or above), you have the option of installing via the provided installer.  By default, the installer installs all 3 Services and the "Smart-Organise Folders • Extension" folder actions (which automatically attaches itself to your "Downloads" folder, which you can change by configuring your folder actions).  Should you decide to install more than one folder action, please ensure that you configure you folder actions.  Please do not use any combination of the provided folder actions together on the same folder simultaneously, as there are no priority resolution mechanisms in place for such a configuration; the resulting behaviour is indeterminate.
 
 == MANUALLY INSTALLING SERVICES
-	Navigate to the "Services" folder and double click to open the .workflow file you wish to install.  Click on the "File" menu, and select "Save As Plug-In...".  Type the name you wish to save the contextual menu item as (preferably the name of the Service) into the "Save Plug-In As:" field.  Select "Finder" from the drop-down menu for "Plug-In For".  Click save.  The service is now ready for use.
+Navigate to the "Services" folder and double click to open the .workflow file you wish to install.  Click on the "File" menu, and select "Save As Plug-In...".  Type the name you wish to save the contextual menu item as (preferably the name of the Service) into the "Save Plug-In As:" field.  Select "Finder" from the drop-down menu for "Plug-In For".  Click save.  The service is now ready for use.
 
 == MANUALLY INSTALLING FOLDER ACTIONS
-	Navigate to the "Folder Actions" folder and double click to open the .workflow file you wish to install.  Click on the "File" menu, and select "Save As Plug-In...".  Type the name you wish to save the folder action as into the "Save Plug-In As:" field.  Select "Folder Action" from the drop-down menu for "Plug-In For"; then select the folder you would like to attach the action to using the new drop-down menu that appears (i.e. "Attached To Folder").  Click save.
+Navigate to the "Folder Actions" folder and double click to open the .workflow file you wish to install.  Click on the "File" menu, and select "Save As Plug-In...".  Type the name you wish to save the folder action as into the "Save Plug-In As:" field.  Select "Folder Action" from the drop-down menu for "Plug-In For"; then select the folder you would like to attach the action to using the new drop-down menu that appears (i.e. "Attached To Folder").  Click save.
 
 == HOW TO UNINSTALL
-For pre Mac OS X 10.6 systems, simply delete the Smart-Organise Folders related files which can be found within the following directories:
+=== For pre Mac OS X 10.6 systems:
+Simply delete the Smart-Organise Folders related files which can be found within the following directories:
 	~/Library/Workflows/Applications/Finder
 	~/Library/Workflows/Applications/Folders
+
 Please note that you will need to delete the files with the names you assigned during the manual installation.
 
-For systems running Snow Leopard:
-	If you chose to install the tools for everyone that uses your machine, delete the Smart-Organise Folders related files from the following directories:
-		/Library/Services
-		/Library/Workflows/Applications/Folder Actions
+=== For systems running Snow Leopard:
+If you chose to install the tools for everyone that uses your machine, delete the Smart-Organise Folders related files from the following directories:
+	/Library/Services
+	/Library/Workflows/Applications/Folder Actions
 
-	If you chose to install the tools for your user account only, delete the Smart-Organise Folders related files from the following directories:
-		~/Library/Services
-		~/Library/Workflows/Applications/Folder Actions
+If you chose to install the tools for your user account only, delete the Smart-Organise Folders related files from the following directories:
+	~/Library/Services
+	~/Library/Workflows/Applications/Folder Actions
 
 There should be one file for each Service or Folder Action regardless the operating system on which it was installed.
