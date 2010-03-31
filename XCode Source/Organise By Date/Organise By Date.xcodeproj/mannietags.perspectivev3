@@ -296,7 +296,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>15 114 761 658 0 0 1440 878 </string>
+						<string>288 220 761 658 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -307,6 +307,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -324,12 +326,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B6402C8311358001002DB21C</string>
+										<string>B60276F41162D68500784F30</string>
 										<key>history</key>
 										<array>
 											<string>B69D097410F7AA730032855A</string>
 											<string>B6DC9B3F111CB1C3001D1645</string>
-											<string>B6402C0211357065002DB21C</string>
+											<string>B60276B31162D64600784F30</string>
+											<string>B60276D01162D66500784F30</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -343,23 +346,21 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {554, 361}}</string>
+								<string>{{0, 0}, {554, 324}}</string>
 								<key>RubberWindowFrame</key>
-								<string>15 114 761 658 0 0 1440 878 </string>
+								<string>288 220 761 658 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>361pt</string>
+							<string>324pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>251pt</string>
+							<string>288pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -370,9 +371,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {554, 224}}</string>
+										<string>{{10, 27}, {554, 261}}</string>
 										<key>RubberWindowFrame</key>
-										<string>15 114 761 658 0 0 1440 878 </string>
+										<string>288 220 761 658 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -454,11 +455,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B6402C7411357FF9002DB21C</string>
+				<string>B60276F51162D68500784F30</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>B6402C7511357FF9002DB21C</string>
+				<string>B60276F61162D68500784F30</string>
 				<string>B64D37BE10E252D9005D48A9</string>
-				<string>B6402C7611357FF9002DB21C</string>
+				<string>B60276F71162D68500784F30</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -650,10 +651,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/mannietags/Projects/Automator Actions/Organise By Date/Organise By Date.xcodeproj</string>
+		<string>/Users/mannietags/Projects/Automator/Smart-Organise/XCode Source/Organise By Date/Organise By Date.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>15 114 761 658 0 0 1440 878 </string>
+	<string>288 220 761 658 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

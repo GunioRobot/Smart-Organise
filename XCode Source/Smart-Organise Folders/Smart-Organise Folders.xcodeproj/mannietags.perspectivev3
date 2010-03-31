@@ -237,6 +237,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -277,7 +279,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>0</integer>
+									<integer>1</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -298,7 +300,7 @@
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>678 222 762 656 0 0 1440 878 </string>
+						<string>370 222 762 656 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -326,12 +328,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B6402C8911358010002DB21C</string>
+										<string>B60276DE1162D68100784F30</string>
 										<key>history</key>
 										<array>
 											<string>B69D096710F7AA730032855A</string>
 											<string>B6402BFE11357065002DB21C</string>
-											<string>B6402C0011357065002DB21C</string>
+											<string>B60276D61162D67B00784F30</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,23 +347,21 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {555, 429}}</string>
+								<string>{{0, 0}, {555, 417}}</string>
 								<key>RubberWindowFrame</key>
-								<string>678 222 762 656 0 0 1440 878 </string>
+								<string>370 222 762 656 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>429pt</string>
+							<string>417pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>193pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -372,9 +372,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {555, 154}}</string>
+										<string>{{10, 27}, {555, 166}}</string>
 										<key>RubberWindowFrame</key>
-										<string>678 222 762 656 0 0 1440 878 </string>
+										<string>370 222 762 656 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -456,11 +456,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B6402C7811357FF9002DB21C</string>
+				<string>B60276DF1162D68100784F30</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>B6402C7911357FF9002DB21C</string>
+				<string>B60276E01162D68100784F30</string>
 				<string>B64D366A10E17600005D48A9</string>
-				<string>B6402C7A11357FF9002DB21C</string>
+				<string>B60276E11162D68100784F30</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -652,10 +652,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/mannietags/Projects/Automator Actions/Smart-Organise Folders/Smart-Organise Folders.xcodeproj</string>
+		<string>/Users/mannietags/Projects/Automator/Smart-Organise/XCode Source/Smart-Organise Folders/Smart-Organise Folders.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>678 222 762 656 0 0 1440 878 </string>
+	<string>370 222 762 656 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

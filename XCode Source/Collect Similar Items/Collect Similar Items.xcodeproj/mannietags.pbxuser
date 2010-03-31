@@ -80,15 +80,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 290004491;
-			PBXWorkspaceStateSaveDate = 290004491;
+			PBXPerProjectTemplateStateSaveDate = 291690119;
+			PBXWorkspaceStateSaveDate = 291690119;
 		};
 		perUserProjectItems = {
-			B6402C3811357950002DB21C /* PBXTextBookmark */ = B6402C3811357950002DB21C /* PBXTextBookmark */;
+			B60276A41162D60400784F30 /* PBXTextBookmark */ = B60276A41162D60400784F30 /* PBXTextBookmark */;
+			B602770A1162D68A00784F30 /* PBXTextBookmark */ = B602770A1162D68A00784F30 /* PBXTextBookmark */;
 			B6402C3A11357950002DB21C /* PBXBookmark */ = B6402C3A11357950002DB21C /* PBXBookmark */;
 			B6402C40113579B2002DB21C /* PlistBookmark */ = B6402C40113579B2002DB21C /* PlistBookmark */;
-			B6402C8611358009002DB21C /* PBXTextBookmark */ = B6402C8611358009002DB21C /* PBXTextBookmark */;
-			B66103A111491E1500540DA2 /* PBXTextBookmark */ = B66103A111491E1500540DA2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 658A2DCF067AB96600421F51 /* Source Control */;
 		userBuildSettings = {
@@ -159,26 +158,29 @@
 	};
 	B4BFE1BE07F3472F00449807 /* main.command */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {492, 506}}";
-			sepNavSelRange = "{100, 0}";
-			sepNavVisRange = "{203, 960}";
+			sepNavIntBoundsRect = "{{0, 0}, {492, 715}}";
+			sepNavSelRange = "{83, 0}";
+			sepNavVisRange = "{0, 1061}";
 		};
 	};
-	B6402C251135790A002DB21C /* Snow-Leopard-Uninstaller.command */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = text;
-		name = "Snow-Leopard-Uninstaller.command";
-		path = "/Users/mannietags/Projects/Automator/Smart-Organise-1.0/Distro/Snow-Leopard-Uninstaller.command";
-		sourceTree = "<absolute>";
-	};
-	B6402C3811357950002DB21C /* PBXTextBookmark */ = {
+	B60276A41162D60400784F30 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B6402C251135790A002DB21C /* Snow-Leopard-Uninstaller.command */;
-		name = "Snow-Leopard-Uninstaller.command: 15";
+		fRef = B4BFE1BE07F3472F00449807 /* main.command */;
+		name = "main.command: 6";
 		rLen = 0;
-		rLoc = 371;
+		rLoc = 83;
 		rType = 0;
-		vrLen = 355;
+		vrLen = 1061;
+		vrLoc = 0;
+	};
+	B602770A1162D68A00784F30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B4BFE1BE07F3472F00449807 /* main.command */;
+		name = "main.command: 6";
+		rLen = 0;
+		rLoc = 83;
+		rType = 0;
+		vrLen = 1061;
 		vrLoc = 0;
 	};
 	B6402C3A11357950002DB21C /* PBXBookmark */ = {
@@ -196,25 +198,5 @@
 		name = "/Users/mannietags/Projects/Automator Actions/Collect Similar Items/Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	B6402C8611358009002DB21C /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B4BFE1BE07F3472F00449807 /* main.command */;
-		name = "main.command: 6";
-		rLen = 0;
-		rLoc = 100;
-		rType = 0;
-		vrLen = 886;
-		vrLoc = 0;
-	};
-	B66103A111491E1500540DA2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = B4BFE1BE07F3472F00449807 /* main.command */;
-		name = "main.command: 6";
-		rLen = 0;
-		rLoc = 100;
-		rType = 0;
-		vrLen = 960;
-		vrLoc = 203;
 	};
 }
