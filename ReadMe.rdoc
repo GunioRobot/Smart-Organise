@@ -7,6 +7,7 @@ LICENCE::	LGPL 3  (See LICENCE or www.gnu.org/licenses/lgpl.html)
 COPYRIGHT::	(c) 2009 Emmanuel Tagarira
 
 == Requirements
+ - Mac OS X v10.5 or later.
  - Growl (notifications may be disabled).
  - The provided Automator Actions (See below: Installing Automator Actions).
 
@@ -30,7 +31,7 @@ Navigate to the Contextual Menu Items folder and double click to open the .workf
 Navigate to the Folder Actions folder and double click to open the .workflow file you wish to install.  Click on the File menu, and select the Save As Plug-In... option.  Type the name you wish to save the folder action as into the Save Plug-In As: field.  Select Folder Action from the drop-down menu for Plug-In For;  then select the folder you would like to attach the action to using the new drop-down menu that appears (i.e. Attached To Folder).  Click Save.
 
 == How To Fully Uninstall Smart-Organise
-=== For pre Mac OS X v10.6 systems:
+=== For Mac OS X v10.5 systems:
 Simply delete the Smart-Organise related files which can be found within the following directories:
 	~/Library/Workflows/Applications/Finder
 	~/Library/Workflows/Applications/Folders
@@ -39,7 +40,7 @@ Simply delete the Smart-Organise related files which can be found within the fol
 Please note:  you will need to delete the files with the names you assigned during the manual installation.
 
 === For systems running Snow Leopard:
-If you did a manual install, please follow the instructions to uninstall Smart-Organise for pre Mac OS X v10.6 systems;  otherwise run the uninstaller provided i.e. Snow-Leopard-Uninstaller.command.  You will need the Adminstrator password for this.  If you prefer to do this manually, you may follow the instructions below.
+If you did a manual install, please follow the instructions to uninstall Smart-Organise for Mac OS X v10.5 systems;  otherwise run the uninstaller provided i.e. Snow-Leopard-Uninstaller.command.  You will need the Adminstrator password for this.  If you prefer to do this manually, you may follow the instructions below.
 
 If you chose to install the tools for everyone that uses your machine, delete the Smart-Organise related files from the following directories:
 	/Library/Automator
