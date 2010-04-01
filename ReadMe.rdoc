@@ -36,9 +36,9 @@ Navigate to the Folder Actions folder and double click to open the .workflow fil
 == How To Fully Uninstall Smart-Organise
 === On Mac OS X v10.5 systems:
 Simply delete the Smart-Organise related files which can be found within the following directories:
-	~/Library/Workflows/Applications/Finder
-	~/Library/Workflows/Applications/Folders
-	~/Library/Automator
+  ~/Library/Workflows/Applications/Finder
+  ~/Library/Workflows/Applications/Folders
+  ~/Library/Automator
 
 Please note:  you will need to delete the files with the names you assigned during the manual installation.
 
