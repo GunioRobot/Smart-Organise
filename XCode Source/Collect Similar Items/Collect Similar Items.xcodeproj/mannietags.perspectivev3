@@ -307,8 +307,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,12 +324,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>B60277401162DD0100784F30</string>
+										<string>B692B7AB1164CE460094A4C5</string>
 										<key>history</key>
 										<array>
 											<string>B6402C3A11357950002DB21C</string>
 											<string>B6402C40113579B2002DB21C</string>
-											<string>B60277211162DCF700784F30</string>
+											<string>B692B7781164CE100094A4C5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,21 +343,23 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {553, 355}}</string>
+								<string>{{0, 0}, {553, 337}}</string>
 								<key>RubberWindowFrame</key>
 								<string>224 223 760 655 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>355pt</string>
+							<string>337pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>254pt</string>
+							<string>272pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -370,7 +370,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {553, 227}}</string>
+										<string>{{10, 27}, {553, 245}}</string>
 										<key>RubberWindowFrame</key>
 										<string>224 223 760 655 0 0 1440 878 </string>
 									</dict>
@@ -454,11 +454,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>B60277411162DD0100784F30</string>
+				<string>B692B7AC1164CE460094A4C5</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>B60277421162DD0100784F30</string>
+				<string>B692B7AD1164CE460094A4C5</string>
 				<string>B64D367E10E177F2005D48A9</string>
-				<string>B60277431162DD0100784F30</string>
+				<string>B692B7AE1164CE460094A4C5</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
