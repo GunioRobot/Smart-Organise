@@ -3,7 +3,7 @@ AUTHOR::	Emmanuel Tagarira
 VERSION::	1.0
 CONTACT::	mannie@dimensionsunmarked.com
 URL::		www.dimensionsunmarked.com
-LICENCE::	LGPL 3  (See LICENCE or www.gnu.org/licenses/lgpl.html)
+LICENCE::	LGPL 3  (See LICENCE-LGPL.txt or www.gnu.org/licenses/lgpl.html)
 COPYRIGHT::	(c) 2009 Emmanuel Tagarira
 
 == Requirements
