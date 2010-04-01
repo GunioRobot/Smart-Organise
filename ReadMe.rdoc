@@ -24,6 +24,9 @@ This is a suite of Automator Actions to help clean up cluttered, untidy folders;
 == How To Install
 If you are running Mac OS X 10.6 (or above), you have the option of installing via the provided installer.  By default, the installer installs all 3 Services (which can also be found in the Contextual Menu Items folder) and the 'Smart-Organise Folders • Extension' folder action (which automatically attaches itself to your ~/Downloads folder, which you can change by configuring your folder actions).  Should you decide to install more than one folder action, please ensure that you configure you folder actions.  Please do not use any combination of the provided folder actions on the same folder simultaneously, as there are no priority resolution mechanisms in place for such a configuration;  the resulting behaviour is indeterminate.
 
+== Installing Automator Actions
+Navigate to the Automator Actions folder.  For each of the .action files, double click to open, and click Install when prompted.  If you are prompted to replace the action, click Replace (if you you click Cancel the new version of the action will not be installed).
+
 == Manually Installing Contextual Menu Items
 Navigate to the Contextual Menu Items folder and double click to open the .workflow file you wish to install.  Click on the File menu, and select the Save As Plug-In... option.  Type the name you wish to save the contextual menu item as (preferably the name of the Service) into the Save Plug-In As: field.  Select Finder from the drop-down menu for Plug-In For.  Click Save;  the service is now ready for use.
 
@@ -31,7 +34,7 @@ Navigate to the Contextual Menu Items folder and double click to open the .workf
 Navigate to the Folder Actions folder and double click to open the .workflow file you wish to install.  Click on the File menu, and select the Save As Plug-In... option.  Type the name you wish to save the folder action as into the Save Plug-In As: field.  Select Folder Action from the drop-down menu for Plug-In For;  then select the folder you would like to attach the action to using the new drop-down menu that appears (i.e. Attached To Folder).  Click Save.
 
 == How To Fully Uninstall Smart-Organise
-=== For Mac OS X v10.5 systems:
+=== On Mac OS X v10.5 systems:
 Simply delete the Smart-Organise related files which can be found within the following directories:
 	~/Library/Workflows/Applications/Finder
 	~/Library/Workflows/Applications/Folders
@@ -39,17 +42,17 @@ Simply delete the Smart-Organise related files which can be found within the fol
 
 Please note:  you will need to delete the files with the names you assigned during the manual installation.
 
-=== For systems running Snow Leopard:
+=== On systems running Snow Leopard:
 If you did a manual install, please follow the instructions to uninstall Smart-Organise for Mac OS X v10.5 systems;  otherwise run the uninstaller provided i.e. Snow-Leopard-Uninstaller.command.  You will need the Adminstrator password for this.  If you prefer to do this manually, you may follow the instructions below.
 
 If you chose to install the tools for everyone that uses your machine, delete the Smart-Organise related files from the following directories:
-	/Library/Automator
-	/Library/Services
-	/Library/Workflows/Applications/Folder Actions
+  /Library/Automator
+  /Library/Services
+  /Library/Workflows/Applications/Folder Actions
 
 If you chose to install the tools for your user account only, delete the Smart-Organise related files from the following directories:
-	~/Library/Automator
-	~/Library/Services	
-	~/Library/Workflows/Applications/Folder Actions
+  ~/Library/Automator
+  ~/Library/Services
+  ~/Library/Workflows/Applications/Folder Actions
 
 There should be one file for each Service or Folder Action regardless of the operating system on which it was installed.
