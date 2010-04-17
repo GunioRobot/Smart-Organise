@@ -1,5 +1,5 @@
 = Version 1.0
-Released:: work in progress (unreleased)
+Released:: Saturday, April 17, 2010
 
 == Added Functionality
 - Actions which are accessible and reusable from within Automator
