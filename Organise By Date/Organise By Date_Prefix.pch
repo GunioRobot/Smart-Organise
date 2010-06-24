@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Organise By Date' target in the 'Organise By Date' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,11 +1,12 @@
 # xcode noise
-build/*
-*.pbxuser
-*.mode1v3
+*/build/*
 
-# old skool
-.svn
-
-# osx noise
-.DS_Store
-profile
+Collect Similar Items/Collect Similar Items.xcodeproj/*.pbxuser
+Collect Similar Items/Collect Similar Items.xcodeproj/*.mode1v3
+Collect Similar Items/Collect Similar Items.xcodeproj/*.pbxuser
+Organise By Date/Organise By Date.xcodeproj/*.pbxuser
+Organise By Date/Organise By Date.xcodeproj/*.mode1v3
+Organise By Date/Organise By Date.xcodeproj/*.pbxuser
+Smart-Organise Folders/Smart-Organise Folders.xcodeproj/*.pbxuser
+Smart-Organise Folders/Smart-Organise Folders.xcodeproj/*.mode1v3
+Smart-Organise Folders/Smart-Organise Folders.xcodeproj/*.pbxuser

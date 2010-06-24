@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Collect Similar Items' target in the 'Collect Similar Items' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
