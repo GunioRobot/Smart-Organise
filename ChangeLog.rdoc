@@ -1,11 +1,9 @@
-= Version 1.0
-Released:: Saturday, April 17, 2010
+= Version 1.1
+Released:: ---
 
 == Added Functionality
-- Actions which are accessible and reusable from within Automator
-- Uninstall instructions
-- An uninstall script for Snow Leopard
+- Complete re-write for efficiency.
+- Updated automator actions to allow for enabling and disabling of Growl notifications.
 
 == Bug Fixes
-- Updated file filter for service "Download Files @ URL"
-- 'Download Files @ URL' now deletes the newly created downloads folder if no files were downloaded
+- Crashes in Mac OS X 10.5 (Leopard).
