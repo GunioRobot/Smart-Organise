@@ -7,45 +7,45 @@
 		<key>Container</key>
 		<string>List</string>
 		<key>Optional</key>
-		<true/>
+		<false/>
 		<key>Types</key>
 		<array>
 			<string>com.apple.cocoa.path</string>
 		</array>
 	</dict>
 	<key>AMApplication</key>
-	<string>(* Primary Application used by this action goes here. *)</string>
+	<string>Smart-Organise</string>
 	<key>AMCanShowSelectedItemsWhenRun</key>
 	<false/>
 	<key>AMCanShowWhenRun</key>
 	<true/>
 	<key>AMCategory</key>
-	<string>(* Category of this action goes here. *)</string>
+	<string>AMCategoryFilesAndFolders</string>
 	<key>AMDefaultParameters</key>
 	<dict/>
 	<key>AMDescription</key>
 	<dict>
 		<key>AMDAlert</key>
-		<string>(* AMDAlert text goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDInput</key>
-		<string>(* AMDInput text to further explain the types accepted as input goes here. (optional) *)</string>
+		<string>Folders (the folders you want to organise)</string>
 		<key>AMDNote</key>
-		<string>(* AMDNote text goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDOptions</key>
-		<string>(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDRelatedActions</key>
-		<string>(* AMDRelatedActions bundle ids go here. (optional) *)</string>
+		<array/>
 		<key>AMDRequires</key>
-		<string>(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDResult</key>
-		<string>(* AMDResult text to further explain the types provided as output goes here. (optional) *)</string>
+		<string>Folders (the folders that have been created)</string>
 		<key>AMDSummary</key>
-		<string>(* AMDSummary text to explain what your action does goes here. *)</string>
+		<string>This action collects files within a given folder, into sub-folders based on their file extensions.</string>
 		<key>AMDWebsite</key>
-		<string>(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)</string>
+		<string>dimensionsunmarked.com</string>
 	</dict>
 	<key>AMIconName</key>
-	<string>(* The name of the icon *)</string>
+	<string>icon</string>
 	<key>AMKeywords</key>
 	<array/>
 	<key>AMName</key>
@@ -64,15 +64,15 @@
 	<key>AMWarning</key>
 	<dict>
 		<key>Action</key>
-		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
+		<string></string>
 		<key>ApplyButton</key>
-		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
+		<string></string>
 		<key>IgnoreButton</key>
-		<string>(* Button label for user not to add proposed Action, e.g. Don't Add. *)</string>
+		<string></string>
 		<key>Level</key>
 		<integer>0</integer>
 		<key>Message</key>
-		<string>(* Warning message presented to user goes here. *)</string>
+		<string></string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
@@ -83,7 +83,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.Automator.${PRODUCT_NAME:identifier}</string>
+	<string>com.dimensionsunmarked.Automator.${PRODUCT_NAME:identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -95,7 +95,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2010 Mannie Tagarira, All Rights Reserved.</string>
 	<key>NSPrincipalClass</key>
