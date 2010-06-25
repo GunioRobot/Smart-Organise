@@ -36,10 +36,11 @@
   inputEnumerator = [input objectEnumerator];
   
   while (currentPath = [inputEnumerator nextObject]) {
-    directoryEnumerator = [fileManager enumeratorAtPath:currentPath];
+    directoryEnumerator = [[fileManager contentsOfDirectoryAtPath:currentPath 
+                                                            error:NULL] objectEnumerator];
     
     while (fileName = [directoryEnumerator nextObject]) {
-      @try {        
+      @try {
         if ([[fileName pathExtension] length] == 0) continue;
         
         // construct the path to the current file

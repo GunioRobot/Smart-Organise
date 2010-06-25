@@ -29,11 +29,14 @@
   NSMutableArray *output;
   NSFileManager *fileManager;
   NSString *organiseDirectory;
-  
-  NSEnumerator *enumerator;
-  NSError *error;
-  id path;
+    
+  NSEnumerator *objectEnumerator;
+  NSEnumerator *directoryEnumerator;
 
+  NSError *error;
+
+  NSString *path;
+  NSString *currentFile;
   NSString *fileName;
   NSString *newFileName;
   

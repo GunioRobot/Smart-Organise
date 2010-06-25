@@ -33,49 +33,68 @@
   fileManager = [NSFileManager defaultManager];
 
   // iterate over the input
-  enumerator = [input objectEnumerator];
+  objectEnumerator = [input objectEnumerator];
   
-  while (path = [enumerator nextObject]) {
+  while (path = [objectEnumerator nextObject]) {
     @try {
       fileName = [path lastPathComponent];
       
       if ([[fileName pathExtension] length] == 0) continue;
-
+        
       // create directory to move files to
       pathComponents = [NSMutableArray arrayWithCapacity:3];
       [pathComponents addObject:[path stringByDeletingLastPathComponent]];
+
+      // enumerator for the containing directory
+      organiseDirectory = [NSString pathWithComponents:pathComponents];
+      directoryEnumerator = [[fileManager contentsOfDirectoryAtPath:organiseDirectory 
+                                                              error:NULL] objectEnumerator];
+
+      // new directory with name of extension
       [pathComponents addObject:[fileName pathExtension]];
-      
       organiseDirectory = [NSString pathWithComponents:pathComponents];
       [fileManager createDirectoryAtPath:organiseDirectory
              withIntermediateDirectories:YES
                               attributes:nil 
                                    error:NULL];
-      
-      
-      // set the new file path, renaming if necessary
-      [pathComponents addObject:fileName];
-      
-      int x = 1;
-      while ([fileManager fileExistsAtPath:[NSString pathWithComponents:pathComponents]]) {
+                    
+      // iterate over the container directory looking for files with the same extension
+      while (currentFile = [directoryEnumerator nextObject]) {
+
+        if (![[currentFile pathExtension] isEqualToString:[fileName pathExtension]]) 
+          continue;
+              
+        // set the current file name
         [pathComponents removeLastObject];
+        [pathComponents addObject:currentFile];
+        organiseDirectory = [NSString pathWithComponents:pathComponents];
+
+        // set the new file path, renaming if necessary
+        [pathComponents removeLastObject];
+        [pathComponents addObject:[fileName pathExtension]];
+        [pathComponents addObject:currentFile];
         
-        newFileName = [NSString stringWithFormat:@"%@ %i.%@", 
-                       [fileName stringByDeletingPathExtension], x++, [fileName pathExtension]];
+        int x = 1;
+        while ([fileManager fileExistsAtPath:[NSString pathWithComponents:pathComponents]]) {
+          [pathComponents removeLastObject];
+          
+          newFileName = [NSString stringWithFormat:@"%@ %i.%@", 
+                         [fileName stringByDeletingPathExtension], x++, [currentFile pathExtension]];
+          
+          [pathComponents addObject:newFileName];  
+        }
         
-        [pathComponents addObject:newFileName];  
-      }
-      
-      // move file to new path
-      organiseDirectory = [NSString pathWithComponents:pathComponents];
-      [fileManager moveItemAtPath:path toPath:organiseDirectory error:&error];
-      
-      // add file path to output array
-      [pathComponents removeLastObject];
-      organiseDirectory = [NSString pathWithComponents:pathComponents];
-      
-      if (![output containsObject:organiseDirectory])
-        [output addObject:organiseDirectory];
+        // move file to new path
+        newFileName = [NSString pathWithComponents:pathComponents];
+        [fileManager moveItemAtPath:organiseDirectory toPath:newFileName error:&error];
+        
+        // add file path to output array
+        [pathComponents removeLastObject];
+        organiseDirectory = [NSString pathWithComponents:pathComponents];
+        
+        if (![output containsObject:organiseDirectory])
+          [output addObject:organiseDirectory];
+     } // while [directoryEnumerator nextObject]
     } @catch (NSException *e) {
       // TODO: handle exception properly
     } // try catch
