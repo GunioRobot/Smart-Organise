@@ -3,7 +3,7 @@ Released:: ---
 
 == Added Functionality
 - Complete re-write for efficiency.
-- Updated automator actions to allow for enabling and disabling of Growl notifications.
+- Combined installer for Leopard and Snow Leopard.
 
 == Bug Fixes
 - Crashes in Mac OS X 10.5 (Leopard).

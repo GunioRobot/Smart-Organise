@@ -2,7 +2,7 @@
 VERSION::	1.1
 AUTHOR::	Mannie Tagarira
 CONTACT::	mannie@dimensionsunmarked.com
-URL::     dimensionsunmarked.com
+URL::     www.twitter.com/smartorganise
 COPYRIGHT::	(c) 2009-2010 Mannie Tagarira
 LICENCE::	LGPL 3 (See COPYING or http://www.gnu.org/licenses/lgpl.html)
 
