@@ -100,6 +100,8 @@
     } // try catch
   } // while [enumerator nextObject]
   
+  [[NSGarbageCollector defaultCollector] collectExhaustively]; // explicitly release memory
+
 	return output;
 } 
 

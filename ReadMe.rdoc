@@ -8,16 +8,22 @@ LICENCE::	LGPL 3 (See COPYING or http://www.gnu.org/licenses/lgpl.html)
 
 == Requirements
 - Growl (notifications may be disabled).
-- The provided Automator Actions (view the Short Manuals).
 
 == Synopsis
 Smart-Organise is a suite of Automator Actions to help clean up cluttered, untidy folders;  the basic concept being that files are organised by their extensions in the top level of the selected directories.
 
 == What's New In This Version
-- Updated automator actions to allow for enabling and disabling of Growl notifications.
-- Fixes for crashes in Mac OS X 10.5 (Leopard).
+=== Added Functionality
+- Complete re-write for efficiency.
+- Combined installer for Leopard and Snow Leopard.
+- Documentation is now installed into the Applications folder.
+
+=== Bug Fixes
+- Crashes in Mac OS X 10.5 (Leopard).
+
+=== Functionality Breaking Changes
+- The "Smart-Organise Folders" and "Organise by Date" Automator actions have now been removed in Mac OS X 10.5 (Leopard) - they still work and have been updated for efficiency in Snow Leopard.
 
 == Important
-- You will need to install the Automator Actions for this version to work.
-- If you install more than one Folder Action, you need to configure your folder actions to ensure that the Folder Actions are not all active on the same folder.  The Folder Actions work in different ways, which so happen to conflict;  the resulting behaviour is indeterminate and may result in a loss of data.
-- The Folder Actions, default to your Downloads folder (~/Downloads).
+- After installing Smart-Organise, you need to configure your folder actions to ensure that only one Smart-Organise folder action is active per folder.  The Folder Actions work in different ways;  the resulting behaviour is indeterminate and may result in a loss of data.
+- In Snow Leopard, the Folder Actions, default to your Downloads folder (~/Downloads).

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXAppleScriptBuildPhase section */
-		B53D27B20DA1ACE500FE9F72 /* AppleScript */ = {
+		B53D27FC0DA1B6DC00FE9F72 /* AppleScript */ = {
 			isa = PBXAppleScriptBuildPhase;
 			buildActionMask = 2147483647;
 			contextName = "";
@@ -19,52 +19,51 @@
 /* End PBXAppleScriptBuildPhase section */
 
 /* Begin PBXBuildFile section */
-		3677EE3511D42D2B00F219B6 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3677EE3411D42D2B00F219B6 /* icon.icns */; };
-		60E1E08C0DB55F8700B0848E /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E1E08A0DB55F8700B0848E /* main.xib */; };
-		650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650E79E1067AB5AE00B4A4EC /* Automator.framework */; };
-		65181752067A8D39005BD953 /* Collect Similar Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 65181750067A8D39005BD953 /* Collect Similar Items.m */; };
-		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
-		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		60E1E0730DB55F5600B0848E /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E1E0710DB55F5600B0848E /* main.xib */; };
+		65081C37067A9A0C006247A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		65081C38067A9A0C006247A1 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AABA78056AB2A5006CE269 /* Automator.framework */; };
+		B4BFE1BF07F3472F00449807 /* main.command in Resources */ = {isa = PBXBuildFile; fileRef = B4BFE1BE07F3472F00449807 /* main.command */; };
+		B64D36ED10E241C6005D48A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		B68D4E4F10EAB58A00426C68 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B68D4E4E10EAB58A00426C68 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		32DBCF630370AF2F00C91783 /* Collect Similar Items_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Collect Similar Items_Prefix.pch"; sourceTree = "<group>"; };
-		3677EE3411D42D2B00F219B6 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
-		60E1E08B0DB55F8700B0848E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
-		650E79E1067AB5AE00B4A4EC /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
-		6518174F067A8D39005BD953 /* Collect Similar Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Collect Similar Items.h"; sourceTree = "<group>"; };
-		65181750067A8D39005BD953 /* Collect Similar Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Collect Similar Items.m"; sourceTree = "<group>"; };
-		8D5B49B6048680CD000E48DA /* Collect Similar Items.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collect Similar Items.action"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+		60E1E0720DB55F5600B0848E /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/main.xib; sourceTree = "<group>"; };
+		65081C3A067A9A0C006247A1 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+		65081C3B067A9A0C006247A1 /* Collect Similar Items.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Collect Similar Items.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AABA78056AB2A5006CE269 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = /System/Library/Frameworks/Automator.framework; sourceTree = "<absolute>"; };
+		B4BFE1BE07F3472F00449807 /* main.command */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = main.command; sourceTree = "<group>"; };
+		B68D4E4E10EAB58A00426C68 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+		65081C36067A9A0C006247A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				650E79E2067AB5AE00B4A4EC /* Automator.framework in Frameworks */,
+				65081C37067A9A0C006247A1 /* Cocoa.framework in Frameworks */,
+				65081C38067A9A0C006247A1 /* Automator.framework in Frameworks */,
+				B64D36ED10E241C6005D48A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089C166AFE841209C02AAC07 /* Collect Similar Items */ = {
+		089C166AFE841209C02AAC07 /* Automator Action */ = {
 			isa = PBXGroup;
 			children = (
+				65AABA0F056A9AD1006CE269 /* Scripts */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
-				32C88E010371C26100C91783 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
+				65081C3A067A9A0C006247A1 /* Info.plist */,
 			);
-			name = "Collect Similar Items";
+			name = "Automator Action";
 			sourceTree = "<group>";
 		};
 		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
@@ -79,10 +78,8 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3677EE3411D42D2B00F219B6 /* icon.icns */,
-				60E1E08A0DB55F8700B0848E /* main.xib */,
-				8D5B49B7048680CD000E48DA /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				B68D4E4E10EAB58A00426C68 /* icon.icns */,
+				60E1E0710DB55F5600B0848E /* main.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -90,8 +87,6 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6518174F067A8D39005BD953 /* Collect Similar Items.h */,
-				65181750067A8D39005BD953 /* Collect Similar Items.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -100,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
-				650E79E1067AB5AE00B4A4EC /* Automator.framework */,
+				65AABA78056AB2A5006CE269 /* Automator.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -117,23 +112,23 @@
 		19C28FB8FE9D52D311CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D5B49B6048680CD000E48DA /* Collect Similar Items.action */,
+				65081C3B067A9A0C006247A1 /* Collect Similar Items.action */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32C88E010371C26100C91783 /* Other Sources */ = {
+		65AABA0F056A9AD1006CE269 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF630370AF2F00C91783 /* Collect Similar Items_Prefix.pch */,
+				B4BFE1BE07F3472F00449807 /* main.command */,
 			);
-			name = "Other Sources";
+			name = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B53D27B30DA1ACE500FE9F72 /* Headers */ = {
+		B53D27FD0DA1B6DC00FE9F72 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,26 +138,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* Collect Similar Items */ = {
+		65081C2D067A9A0C006247A1 /* Collect Similar Items */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Collect Similar Items" */;
+			buildConfigurationList = 4E59BCAA08A8249B001206A8 /* Build configuration list for PBXNativeTarget "Collect Similar Items" */;
 			buildPhases = (
-				B53D27B20DA1ACE500FE9F72 /* AppleScript */,
-				B53D27B30DA1ACE500FE9F72 /* Headers */,
-				8D5B49AF048680CD000E48DA /* Resources */,
-				8D5B49B1048680CD000E48DA /* Sources */,
-				8D5B49B3048680CD000E48DA /* Frameworks */,
-				B53D27B40DA1ACE500FE9F72 /* Rez */,
-				25038767080C6D0B00E1128B /* ShellScript */,
+				B53D27FC0DA1B6DC00FE9F72 /* AppleScript */,
+				B53D27FD0DA1B6DC00FE9F72 /* Headers */,
+				65081C31067A9A0C006247A1 /* Resources */,
+				B53D27FE0DA1B6DC00FE9F72 /* Sources */,
+				65081C36067A9A0C006247A1 /* Frameworks */,
+				B53D27FF0DA1B6DC00FE9F72 /* Rez */,
+				250388A2080C870600E1128B /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Collect Similar Items";
-			productInstallPath = "$(HOME)/Library/Bundles";
-			productName = "Collect Similar Items";
-			productReference = 8D5B49B6048680CD000E48DA /* Collect Similar Items.action */;
+			productInstallPath = "$(USER_LIBRARY_DIR)/Automator";
+			productName = "Automator Action";
+			productReference = 65081C3B067A9A0C006247A1 /* Collect Similar Items.action */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -170,33 +165,36 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Collect Similar Items" */;
+			attributes = {
+				ORGANIZATIONNAME = "Emmanuel Tagarira";
+			};
+			buildConfigurationList = 4E59BCAE08A8249B001206A8 /* Build configuration list for PBXProject "Collect Similar Items" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
-			mainGroup = 089C166AFE841209C02AAC07 /* Collect Similar Items */;
+			mainGroup = 089C166AFE841209C02AAC07 /* Automator Action */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* Collect Similar Items */,
+				65081C2D067A9A0C006247A1 /* Collect Similar Items */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D5B49AF048680CD000E48DA /* Resources */ = {
+		65081C31067A9A0C006247A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				60E1E08C0DB55F8700B0848E /* main.xib in Resources */,
-				3677EE3511D42D2B00F219B6 /* icon.icns in Resources */,
+				B4BFE1BF07F3472F00449807 /* main.command in Resources */,
+				60E1E0730DB55F5600B0848E /* main.xib in Resources */,
+				B68D4E4F10EAB58A00426C68 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
-		B53D27B40DA1ACE500FE9F72 /* Rez */ = {
+		B53D27FF0DA1B6DC00FE9F72 /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,7 +204,7 @@
 /* End PBXRezBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		25038767080C6D0B00E1128B /* ShellScript */ = {
+		250388A2080C870600E1128B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,29 +220,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D5B49B1048680CD000E48DA /* Sources */ = {
+		B53D27FE0DA1B6DC00FE9F72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65181752067A8D39005BD953 /* Collect Similar Items.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		60E1E0710DB55F5600B0848E /* main.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		60E1E08A0DB55F8700B0848E /* main.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60E1E08B0DB55F8700B0848E /* English */,
+				60E1E0720DB55F5600B0848E /* English */,
 			);
 			name = main.xib;
 			sourceTree = "<group>";
@@ -252,89 +241,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4E59C34008A97622001206A8 /* Debug */ = {
+		4E59BCAB08A8249B001206A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Collect Similar Items_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Automator";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Collect Similar Items";
-				SDKROOT = "";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Debug;
 		};
-		4E59C34108A97622001206A8 /* Release */ = {
+		4E59BCAC08A8249B001206A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Collect Similar Items_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Automator";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Collect Similar Items";
-				SDKROOT = "";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Release;
 		};
-		4E59C34408A97622001206A8 /* Debug */ = {
+		4E59BCAF08A8249B001206A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = required;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
-				VALID_ARCHS = "i386 ppc x86_64";
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
-		4E59C34508A97622001206A8 /* Release */ = {
+		4E59BCB008A8249B001206A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = required;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
-				VALID_ARCHS = "i386 ppc x86_64";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4E59C33F08A97622001206A8 /* Build configuration list for PBXNativeTarget "Collect Similar Items" */ = {
+		4E59BCAA08A8249B001206A8 /* Build configuration list for PBXNativeTarget "Collect Similar Items" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E59C34008A97622001206A8 /* Debug */,
-				4E59C34108A97622001206A8 /* Release */,
+				4E59BCAB08A8249B001206A8 /* Debug */,
+				4E59BCAC08A8249B001206A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E59C34308A97622001206A8 /* Build configuration list for PBXProject "Collect Similar Items" */ = {
+		4E59BCAE08A8249B001206A8 /* Build configuration list for PBXProject "Collect Similar Items" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E59C34408A97622001206A8 /* Debug */,
-				4E59C34508A97622001206A8 /* Release */,
+				4E59BCAF08A8249B001206A8 /* Debug */,
+				4E59BCB008A8249B001206A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

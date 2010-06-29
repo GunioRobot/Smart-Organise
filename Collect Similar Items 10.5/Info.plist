@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<false/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>Smart-Organise</string>
+	<key>AMCategory</key>
+	<string>AMCategoryFilesAndFolders</string>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDInput</key>
+		<string>Files (one or more extensions)</string>
+		<key>AMDSummary</key>
+		<string>This action collects files of a given file extension into one folder.</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>icon</string>
+	<key>AMName</key>
+	<string>Collect Similar Items</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+	</dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>1.0, Copyright © 2009-2010 Emmanuel Tagarira.</string>
+	<key>CFBundleIconFile</key>
+	<string>icon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.dimensionsunmarked.Automator.${PRODUCT_NAME:identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2009-2010 Emmanuel Tagarira.</string>
+	<key>NSPrincipalClass</key>
+	<string>AMShellScriptAction</string>
+</dict>
+</plist>

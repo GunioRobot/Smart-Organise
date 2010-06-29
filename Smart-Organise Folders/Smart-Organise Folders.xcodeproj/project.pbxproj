@@ -266,6 +266,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Smart-Organise Folders";
+				SDKROOT = "";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Debug;
@@ -281,6 +282,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Smart-Organise Folders";
+				SDKROOT = "";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Release;

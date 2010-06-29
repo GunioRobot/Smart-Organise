@@ -87,7 +87,9 @@
       // TODO: handle exception properly
     } // try catch
   } // while [enumerator nextObject]
-    
+  
+  [[NSGarbageCollector defaultCollector] collectExhaustively]; // explicitly release memory
+  
 	return output;
 }
 

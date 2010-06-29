@@ -4,6 +4,10 @@ Released:: ---
 == Added Functionality
 - Complete re-write for efficiency.
 - Combined installer for Leopard and Snow Leopard.
+- Documentation is now installed into the Applications folder.
 
 == Bug Fixes
 - Crashes in Mac OS X 10.5 (Leopard).
+
+== Functionality Breaking Changes
+- The "Smart-Organise Folders" and "Organise by Date" Automator actions have now been removed in Mac OS X 10.5 (Leopard) - they still work and have been updated for efficiency in Snow Leopard.
