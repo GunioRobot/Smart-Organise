@@ -2,6 +2,7 @@
 Released:: ---
 
 == Added Functionality
+- An update checker.
 - Complete re-write for efficiency.
 - Combined installer for Leopard and Snow Leopard.
 - Documentation is now installed into the Applications folder.
