@@ -3,7 +3,7 @@
 //  Smart-Organise
 //
 //  Created by Mannie Tagarira on 24/06/2010.
-//  Copyright (c) 2010 Mannie Tagarira, Some Rights Reserved.
+//  Copyright (c) 2010 Mannie Tagarira.
 
 /*
  This file is part of Smart-Organise.
@@ -29,8 +29,9 @@
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
   // set work vars
-  output = [NSMutableArray arrayWithCapacity:[input count]];
+  output = [NSMutableArray array];
   fileManager = [NSFileManager defaultManager];
+  userDownloadsDirectory = [@"~/Downloads" stringByExpandingTildeInPath];
   
   // iterate over the input
   inputEnumerator = [input objectEnumerator];
@@ -43,8 +44,13 @@
       @try {
         if ([[fileName pathExtension] length] == 0) continue;
         
+        // check that the file is not a .download bundle + currentPath is not ~/Download
+        if ([currentPath isEqualToString:userDownloadsDirectory] 
+            && [[fileName pathExtension] isEqualToString:@"download"])
+          continue;
+        
         // construct the path to the current file
-        pathComponents = [NSMutableArray arrayWithCapacity:3];
+        pathComponents = [NSMutableArray array];
         [pathComponents addObject:currentPath];
         [pathComponents addObject:fileName];
         
@@ -60,7 +66,6 @@
                                 attributes:nil 
                                      error:NULL];
         
-        
         // set the new file path, renaming if necessary
         [pathComponents addObject:fileName];
         
@@ -73,6 +78,7 @@
           
           [pathComponents addObject:newFileName];  
         }
+        NSLog(@"%@", [[fileManager attributesOfItemAtPath:filePath error:NULL] objectForKey:NSFileType]);
         
         // move file to new path
         organiseDirectory = [NSString pathWithComponents:pathComponents];

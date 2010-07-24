@@ -242,6 +242,7 @@
 				GCC_PREFIX_HEADER = Smart_Organise_Updater_Prefix.pch;
 				INFOPLIST_FILE = "Smart_Organise_Updater-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "Smart-Organise Updater";
 			};
 			name = Debug;
@@ -260,6 +261,7 @@
 				GCC_PREFIX_HEADER = Smart_Organise_Updater_Prefix.pch;
 				INFOPLIST_FILE = "Smart_Organise_Updater-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "Smart-Organise Updater";
 			};
 			name = Release;

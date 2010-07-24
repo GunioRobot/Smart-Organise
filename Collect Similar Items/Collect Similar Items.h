@@ -3,7 +3,7 @@
 //  Smart-Organise
 //
 //  Created by Mannie Tagarira on 24/06/2010.
-//  Copyright (c) 2010 Mannie Tagarira, Some Rights Reserved.
+//  Copyright (c) 2010 Mannie Tagarira.
 
 /*
  This file is part of Smart-Organise.

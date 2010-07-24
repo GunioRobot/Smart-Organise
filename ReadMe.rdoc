@@ -1,5 +1,5 @@
 = Smart-Organise
-VERSION::	1.1
+VERSION::	1.1.2
 AUTHOR::	Mannie Tagarira
 CONTACT::	mannie@dimensionsunmarked.com
 URL::     www.twitter.com/smartorganise
@@ -14,15 +14,13 @@ Smart-Organise is a suite of Automator Actions to help clean up cluttered, untid
 
 == What's New In This Version
 === Added Functionality
-- Complete re-write for efficiency.
-- Combined installer for Leopard and Snow Leopard.
-- Documentation is now installed into the Applications folder.
+- none
 
 === Bug Fixes
-- Crashes in Mac OS X 10.5 (Leopard).
+- Bug fix for the Smart-Organise Folders folder action and service in Mac OS X 10.6 (Snow Leopard).  Safari's download bundles (".download" files) are no longer moved into a download sub-directory; the by extension folder action has also been updated to the same.  To group download bundles into their own directory, you now have to explicitly use the Collect Similar Items service
 
 === Functionality Breaking Changes
-- The "Smart-Organise Folders" and "Organise by Date" Automator actions have now been removed in Mac OS X 10.5 (Leopard) - they still work and have been updated for efficiency in Snow Leopard.
+- none
 
 == Important
 - After installing Smart-Organise, you need to configure your folder actions to ensure that only one Smart-Organise folder action is active per folder.  The Folder Actions work in different ways;  the resulting behaviour is indeterminate and may result in a loss of data.

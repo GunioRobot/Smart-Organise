@@ -264,6 +264,7 @@
 				GCC_PREFIX_HEADER = "Collect Similar Items_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Automator";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Collect Similar Items";
 				SDKROOT = "";
@@ -280,6 +281,7 @@
 				GCC_PREFIX_HEADER = "Collect Similar Items_Prefix.pch";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Automator";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
 				PRODUCT_NAME = "Collect Similar Items";
 				SDKROOT = "";

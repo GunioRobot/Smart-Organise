@@ -3,7 +3,7 @@
 //  Smart-Organise
 //
 //  Created by Mannie Tagarira on 24/06/2010.
-//  Copyright (c) 2010 Mannie Tagarira, Some Rights Reserved.
+//  Copyright (c) 2010 Mannie Tagarira.
 
 /*
  This file is part of Smart-Organise.
@@ -28,15 +28,19 @@
 @interface Smart_Organise_Folders : AMBundleAction {
   NSMutableArray *output;
   NSFileManager *fileManager;
+
   NSString *organiseDirectory;
+  NSString *userDownloadsDirectory;
   
   NSEnumerator *inputEnumerator;
   NSEnumerator *directoryEnumerator;
   
   NSError *error;
+  
+  NSDictionary *fileAttributes;
 
-  NSString * currentPath;
-  NSString * filePath;
+  NSString *currentPath;
+  NSString *filePath;
   NSString *fileName;
   NSString *newFileName;
   

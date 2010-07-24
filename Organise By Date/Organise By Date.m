@@ -3,7 +3,7 @@
 //  Smart-Organise
 //
 //  Created by Mannie Tagarira on 24/06/2010.
-//  Copyright (c) 2010 Mannie Tagarira, Some Rights Reserved.
+//  Copyright (c) 2010 Mannie Tagarira.
 
 /*
  This file is part of Smart-Organise.
@@ -29,7 +29,7 @@
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
   // set work vars
-  output = [NSMutableArray arrayWithCapacity:[input count]];
+  output = [NSMutableArray array];
   fileManager = [NSFileManager defaultManager];
   
   // set the current date in format YYYY-MM-DD
@@ -45,7 +45,7 @@
         fileName = [path lastPathComponent];
         
         // create directory to move files to
-        pathComponents = [NSMutableArray arrayWithCapacity:3];
+        pathComponents = [NSMutableArray array];
         [pathComponents addObject:[path stringByDeletingLastPathComponent]];
         [pathComponents addObject:currentDate];
         
