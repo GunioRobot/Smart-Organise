@@ -4,7 +4,7 @@ AUTHOR::	Mannie Tagarira
 CONTACT::	mannie@dimensionsunmarked.com
 URL::     www.twitter.com/smartorganise
 COPYRIGHT::	(c) 2009-2010 Mannie Tagarira
-LICENCE::	LGPL 3 (See COPYING or http://www.gnu.org/licenses/lgpl.html)
+LICENCE::	LGPL 3 (See COPYING.LESSER or http://www.gnu.org/licenses/lgpl.html)
 
 == Requirements
 - Growl (notifications may be disabled).
