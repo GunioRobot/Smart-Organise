@@ -13,16 +13,25 @@
 			<string>com.apple.cocoa.path</string>
 		</array>
 	</dict>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
 	<key>AMApplication</key>
 	<string>Smart-Organise</string>
 	<key>AMCategory</key>
 	<string>AMCategoryFilesAndFolders</string>
 	<key>AMDescription</key>
 	<dict>
-		<key>AMDInput</key>
-		<string>Files (one or more extensions)</string>
+		<key>AMDRequires</key>
+		<string>Files or folders of one or more extensions</string>
+		<key>AMDRelatedActions</key>
+		<array>
+			<string>Organise By Date</string>
+			<string>Smart-Organise Folders</string>
+		</array>
 		<key>AMDSummary</key>
 		<string>This action collects files of a given file extension into one folder.</string>
+		<key>AMDWebsite</key>
+		<string>www.dimensionsunmarked.com</string>
 	</dict>
 	<key>AMIconName</key>
 	<string>icon</string>
@@ -36,7 +45,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0, Copyright © 2009-2010 Emmanuel Tagarira.</string>
+	<string>1.0, Copyright © 2009-2010 Mannie Tagarira.</string>
 	<key>CFBundleIconFile</key>
 	<string>icon</string>
 	<key>CFBundleIdentifier</key>

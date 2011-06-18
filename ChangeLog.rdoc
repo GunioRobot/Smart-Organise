@@ -1,14 +1,29 @@
-= Version 1.1
+= Changelog
+
+
+
+== Version 1.2
+Released:: Saturday, June 18, 2011
+
+=== Added Functionality
+- Added the ".part" extension to the Smart-Organise Folders blacklist.  This folder action will no longer disrupt downloads from apps such as Firefox and Skype.
+
+=== Misc.
+- Updated the license from LGPL to BSD. For more information on this license, visit http://www.opensource.org/licenses/BSD-3-Clause .
+- Updated the garbage collection policy from "required" to "supported"
+
+
+== Version 1.1
 Released:: Thursday, July 1, 2010
 
-== Added Functionality
+=== Added Functionality
 - An update checker.
 - Complete re-write for efficiency.
 - Combined installer for Leopard and Snow Leopard.
 - Documentation is now installed into the Applications folder.
 
-== Bug Fixes
+=== Bug Fixes
 - Crashes in Mac OS X 10.5 (Leopard).
 
-== Functionality Breaking Changes
+=== Functionality Breaking Changes
 - The "Smart-Organise Folders" and "Organise by Date" Automator actions have now been removed in Mac OS X 10.5 (Leopard) - they still work and have been updated for efficiency in Snow Leopard.

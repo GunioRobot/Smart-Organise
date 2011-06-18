@@ -21,33 +21,24 @@
 	<true/>
 	<key>AMCategory</key>
 	<string>AMCategoryFilesAndFolders</string>
-	<key>AMDefaultParameters</key>
-	<dict/>
 	<key>AMDescription</key>
 	<dict>
-		<key>AMDAlert</key>
-		<string></string>
+		<key>AMDRelatedActions</key>
+		<array>
+			<string>Collect Similar Items</string>
+			<string>Smart-Organise Folders</string>
+		</array>
+		<key>AMDResult</key>
+		<string>The folders that have been created</string>
 		<key>AMDInput</key>
 		<string>Files</string>
-		<key>AMDNote</key>
-		<string></string>
-		<key>AMDOptions</key>
-		<string></string>
-		<key>AMDRelatedActions</key>
-		<array/>
-		<key>AMDRequires</key>
-		<string></string>
-		<key>AMDResult</key>
-		<string>Folders (the folders that have been created)</string>
 		<key>AMDSummary</key>
 		<string>This action collects files into one folder based on the current date.</string>
 		<key>AMDWebsite</key>
-		<string>dimensionsunmarked.com</string>
+		<string>www.dimensionsunmarked.com</string>
 	</dict>
 	<key>AMIconName</key>
 	<string>icon</string>
-	<key>AMKeywords</key>
-	<array/>
 	<key>AMName</key>
 	<string>Organise By Date</string>
 	<key>AMProvides</key>
@@ -59,27 +50,12 @@
 			<string>com.apple.cocoa.path</string>
 		</array>
 	</dict>
-	<key>AMRequiredResources</key>
-	<array/>
-	<key>AMWarning</key>
-	<dict>
-		<key>Action</key>
-		<string>(* Action name to be suggested to add prior to this action to make the task safer, e.g. com.apple.Automator.CopyFiles, goes here. *)</string>
-		<key>ApplyButton</key>
-		<string>(* Button label for user to add proposed Action, e.g. Add. *)</string>
-		<key>IgnoreButton</key>
-		<string>(* Button label for user not to add proposed Action, e.g. Don&apos;t Add. *)</string>
-		<key>Level</key>
-		<integer>0</integer>
-		<key>Message</key>
-		<string>(* Warning message presented to user goes here. *)</string>
-	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.1, Copyright © 2010 Mannie Tagarira.</string>
+	<string>1.2, Copyright © 2011 Mannie Tagarira.</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
@@ -91,13 +67,13 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2010 Mannie Tagarira.</string>
+	<string>Copyright © 2011 Mannie Tagarira.</string>
 	<key>NSPrincipalClass</key>
 	<string>Organise_By_Date</string>
 </dict>

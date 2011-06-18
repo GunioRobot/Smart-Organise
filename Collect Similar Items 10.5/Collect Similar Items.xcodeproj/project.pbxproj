@@ -170,7 +170,14 @@
 			};
 			buildConfigurationList = 4E59BCAE08A8249B001206A8 /* Build configuration list for PBXProject "Collect Similar Items" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* Automator Action */;
 			projectDirPath = "";
 			projectRoot = "";

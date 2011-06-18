@@ -5,22 +5,6 @@
 //  Created by Mannie Tagarira on 24/06/2010.
 //  Copyright (c) 2010 Mannie Tagarira.
 
-/*
- This file is part of Smart-Organise.
- 
- Smart-Organise is free software: you can redistribute it and/or modify
- it under the terms of the GNU Lesser General Public License as published by
- the Free Software Foundation, either version 3 of the License, or
- (at your option) any later version.
- 
- Smart-Organise is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU Lesser General Public License for more details.
- 
- You should have received a copy of the GNU Lesser General Public License
- along with Smart-Organise.  If not, see <http://www.gnu.org/licenses/lgpl.html>.
- */ 
 
 #import "Smart-Organise Folders.h"
 
@@ -29,29 +13,28 @@
 
 - (id)runWithInput:(id)input fromAction:(AMAction *)anAction error:(NSDictionary **)errorInfo {
   // set work vars
-  output = [NSMutableArray array];
+  output = [[NSMutableArray alloc] init];
+  pathComponents = [[NSMutableArray alloc] init];
+
   fileManager = [NSFileManager defaultManager];
-  userDownloadsDirectory = [@"~/Downloads" stringByExpandingTildeInPath];
   
   // iterate over the input
   inputEnumerator = [input objectEnumerator];
-  
   while (currentPath = [inputEnumerator nextObject]) {
-    directoryEnumerator = [[fileManager contentsOfDirectoryAtPath:currentPath 
-                                                            error:NULL] objectEnumerator];
+    directoryEnumerator = [[fileManager contentsOfDirectoryAtPath:currentPath error:&error] objectEnumerator]; // TODO: use error object
     
     while (fileName = [directoryEnumerator nextObject]) {
       @try {
         if ([[fileName pathExtension] length] == 0) continue;
         
-        // check that the file is not a .download bundle + currentPath is not ~/Download
-        if ([currentPath isEqualToString:userDownloadsDirectory] 
-            && [[fileName pathExtension] isEqualToString:@"download"])
-          continue;
+        // check that the file is not a .download bundle or a .part bundle
+        BOOL isDownloadBundle = [[fileName pathExtension] isEqualToString:@"download"];
+        BOOL isPartBundle = [[fileName pathExtension] isEqualToString:@"part"];
+        if (isDownloadBundle || isPartBundle) continue;
         
         // construct the path to the current file
-        pathComponents = [NSMutableArray array];
-        [pathComponents addObject:currentPath];
+        [pathComponents removeAllObjects];
+        [pathComponents addObjectsFromArray:[currentPath pathComponents]];
         [pathComponents addObject:fileName];
         
         filePath = [NSString pathWithComponents:pathComponents];
@@ -61,45 +44,41 @@
         [pathComponents addObject:[fileName pathExtension]];
         
         organiseDirectory = [NSString pathWithComponents:pathComponents];
-        [fileManager createDirectoryAtPath:organiseDirectory
-               withIntermediateDirectories:YES
-                                attributes:nil 
-                                     error:NULL];
+        [fileManager createDirectoryAtPath:organiseDirectory withIntermediateDirectories:YES attributes:nil error:&error]; // TODO: use error object
         
-        // set the new file path, renaming if necessary
+        // set the new file path
         [pathComponents addObject:fileName];
         
+        // rename file if necessary
         int x = 1;
         while ([fileManager fileExistsAtPath:[NSString pathWithComponents:pathComponents]]) {
           [pathComponents removeLastObject];
           
-          newFileName = [NSString stringWithFormat:@"%@ %i.%@", 
-                         [fileName stringByDeletingPathExtension], x++, [fileName pathExtension]];
-          
+          newFileName = [NSString stringWithFormat:@"%@ %i.%@", [fileName stringByDeletingPathExtension], x++, [fileName pathExtension]];
           [pathComponents addObject:newFileName];  
         }
-        NSLog(@"%@", [[fileManager attributesOfItemAtPath:filePath error:NULL] objectForKey:NSFileType]);
         
         // move file to new path
         organiseDirectory = [NSString pathWithComponents:pathComponents];
-        [fileManager moveItemAtPath:filePath toPath:organiseDirectory error:&error];
+        [fileManager moveItemAtPath:filePath toPath:organiseDirectory error:&error]; // TODO: use error object
         
         // add file path to output array
         [pathComponents removeLastObject];
         organiseDirectory = [NSString pathWithComponents:pathComponents];
         
-        if (![output containsObject:organiseDirectory])
-          [output addObject:organiseDirectory];
+        if (![output containsObject:organiseDirectory]) [output addObject:organiseDirectory];
       } @catch (NSException *e) {
+        NSLog(@"Exception: %@ - %@", [e name], [e reason]);
         // TODO: handle exception properly
       } // try catch
     } // while [directoryEnumerator nextObject]
     
   } // while [inputEnumerator nextObject]
-  
-  [[NSGarbageCollector defaultCollector] collectExhaustively]; // explicitly release memory
 
-	return output;
+  // cleanup
+  [pathComponents release];
+
+	return [output autorelease];
 }
 
 @end

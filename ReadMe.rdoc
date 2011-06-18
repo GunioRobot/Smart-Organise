@@ -1,10 +1,10 @@
 = Smart-Organise
-VERSION::	1.1.2
+VERSION::	1.2
 AUTHOR::	Mannie Tagarira
 CONTACT::	mannie@dimensionsunmarked.com
-URL::     www.twitter.com/smartorganise
-COPYRIGHT::	(c) 2009-2010 Mannie Tagarira
-LICENCE::	LGPL 3 (See COPYING.LESSER or http://www.gnu.org/licenses/lgpl.html)
+URL::     www.dimensionsunmarked.com
+COPYRIGHT::	(c) 2009-2011 Mannie Tagarira
+LICENCE::	BSD License (See LICENSE)
 
 == Requirements
 - Growl (notifications may be disabled).
@@ -12,16 +12,16 @@ LICENCE::	LGPL 3 (See COPYING.LESSER or http://www.gnu.org/licenses/lgpl.html)
 == Synopsis
 Smart-Organise is a suite of Automator Actions to help clean up cluttered, untidy folders;  the basic concept being that files are organised by their extensions in the top level of the selected directories.
 
-== What's New In This Version
-=== Added Functionality
-- none
-
-=== Bug Fixes
-- Bug fix for the Smart-Organise Folders folder action and service in Mac OS X 10.6 (Snow Leopard).  Safari's download bundles (".download" files) are no longer moved into a download sub-directory; the by extension folder action has also been updated to the same.  To group download bundles into their own directory, you now have to explicitly use the Collect Similar Items service
-
-=== Functionality Breaking Changes
-- none
-
 == Important
 - After installing Smart-Organise, you need to configure your folder actions to ensure that only one Smart-Organise folder action is active per folder.  The Folder Actions work in different ways;  the resulting behaviour is indeterminate and may result in a loss of data.
 - In Snow Leopard, the Folder Actions, default to your Downloads folder (~/Downloads).
+
+== What's New In This Version
+=== Added Functionality
+- Added the ".part" extension to the Smart-Organise Folders blacklist.  This folder action will no longer disrupt downloads from apps such as Firefox and Skype.
+
+=== Bug Fixes
+- none
+
+=== Functionality Breaking Changes
+- none
