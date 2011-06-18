@@ -25,8 +25,4 @@ Collect Similar Items 10.5/Collect Similar Items.xcodeproj/*.mode1v3
 Collect Similar Items 10.5/Collect Similar Items.xcodeproj/*.pbxuser
 Collect Similar Items 10.5/Collect Similar Items.xcodeproj/*.perspectivev3
 
-Smart-Organise Updater/Smart-Organise Updater.xcodeproj/*.mode1v3
-Smart-Organise Updater/Smart-Organise Updater.xcodeproj/*.pbxuser
-Smart-Organise Updater/Smart-Organise Updater.xcodeproj/*.perspectivev3
-Smart-Organise Updater/dsa_pub.pem
-Smart-Organise Updater/Smart_Organise_Updater-Info.plist
+Smart-Organise Updater/*
